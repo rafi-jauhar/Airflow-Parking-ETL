@@ -1,0 +1,23 @@
+[2024-10-29 01:48:51,872] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parking_pipeline.transform_data scheduled__2024-10-20T15:02:26.233770+00:00 [queued]>
+[2024-10-29 01:48:51,883] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parking_pipeline.transform_data scheduled__2024-10-20T15:02:26.233770+00:00 [queued]>
+[2024-10-29 01:48:51,884] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-29 01:48:51,884] {taskinstance.py:1357} INFO - Starting attempt 2 of 2
+[2024-10-29 01:48:51,885] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-29 01:48:51,901] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): transform_data> on 2024-10-20 15:02:26.233770+00:00
+[2024-10-29 01:48:51,909] {standard_task_runner.py:52} INFO - Started process 79 to run task
+[2024-10-29 01:48:51,914] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parking_pipeline', 'transform_data', 'scheduled__2024-10-20T15:02:26.233770+00:00', '--job-id', '373', '--raw', '--subdir', 'DAGS_FOLDER/parking_dag.py', '--cfg-path', '/tmp/tmpmh5o7sze', '--error-file', '/tmp/tmp4famg_hu']
+[2024-10-29 01:48:51,915] {standard_task_runner.py:80} INFO - Job 373: Subtask transform_data
+[2024-10-29 01:48:51,989] {task_command.py:369} INFO - Running <TaskInstance: parking_pipeline.transform_data scheduled__2024-10-20T15:02:26.233770+00:00 [running]> on host 34572bdb7b7c
+[2024-10-29 01:48:52,083] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=parking_pipeline
+AIRFLOW_CTX_TASK_ID=transform_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-20T15:02:26.233770+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-20T15:02:26.233770+00:00
+[2024-10-29 01:48:52,135] {python.py:173} INFO - Done. Returned value was: None
+[2024-10-29 01:48:52,149] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=parking_pipeline, task_id=transform_data, execution_date=20241020T150226, start_date=20241029T014851, end_date=20241029T014852
+[2024-10-29 01:48:52,207] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-10-29 01:48:52,253] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

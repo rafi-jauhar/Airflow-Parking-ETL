@@ -1,0 +1,26 @@
+[2024-10-20 13:11:10,390] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parking_pipeline.is_api_available scheduled__2024-10-20T13:09:09.735993+00:00 [queued]>
+[2024-10-20 13:11:10,402] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parking_pipeline.is_api_available scheduled__2024-10-20T13:09:09.735993+00:00 [queued]>
+[2024-10-20 13:11:10,403] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-20 13:11:10,403] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-10-20 13:11:10,404] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-20 13:11:10,420] {taskinstance.py:1377} INFO - Executing <Task(HttpSensor): is_api_available> on 2024-10-20 13:09:09.735993+00:00
+[2024-10-20 13:11:10,427] {standard_task_runner.py:52} INFO - Started process 122 to run task
+[2024-10-20 13:11:10,431] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parking_pipeline', 'is_api_available', 'scheduled__2024-10-20T13:09:09.735993+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/parking_dag.py', '--cfg-path', '/tmp/tmp9kyrnbtg', '--error-file', '/tmp/tmpsj5z462p']
+[2024-10-20 13:11:10,432] {standard_task_runner.py:80} INFO - Job 63: Subtask is_api_available
+[2024-10-20 13:11:10,492] {task_command.py:369} INFO - Running <TaskInstance: parking_pipeline.is_api_available scheduled__2024-10-20T13:09:09.735993+00:00 [running]> on host 1fca498fbeb9
+[2024-10-20 13:11:10,572] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=parking_pipeline
+AIRFLOW_CTX_TASK_ID=is_api_available
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-20T13:09:09.735993+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-20T13:09:09.735993+00:00
+[2024-10-20 13:11:10,574] {http.py:97} INFO - Poking: 
+[2024-10-20 13:11:10,584] {base.py:68} INFO - Using connection ID 'is_api_available' for task execution.
+[2024-10-20 13:11:10,585] {http.py:129} INFO - Sending 'GET' to url: https://datahub-v2.arlingtonva.us/api/ParkingMeter/ParkingTransactions
+[2024-10-20 13:11:11,697] {base.py:301} INFO - Success criteria met. Exiting.
+[2024-10-20 13:11:11,714] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=parking_pipeline, task_id=is_api_available, execution_date=20241020T130909, start_date=20241020T131110, end_date=20241020T131111
+[2024-10-20 13:11:11,769] {local_task_job.py:156} INFO - Task exited with return code 0
+[2024-10-20 13:11:11,827] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,119 @@
+[2024-10-22 03:10:10,886] {processor.py:153} INFO - Started process (PID=54) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:10:10,887] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:10:10,888] {logging_mixin.py:115} INFO - [2024-10-22 03:10:10,887] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:10:12,273] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:10:12,319] {logging_mixin.py:115} INFO - [2024-10-22 03:10:12,319] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:10:12,346] {logging_mixin.py:115} INFO - [2024-10-22 03:10:12,346] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:10:10.879477+00:00, run_after=2024-10-22T03:12:10.879477+00:00
+[2024-10-22 03:10:12,366] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 1.484 seconds
+[2024-10-22 03:10:42,506] {processor.py:153} INFO - Started process (PID=86) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:10:42,507] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:10:42,508] {logging_mixin.py:115} INFO - [2024-10-22 03:10:42,508] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:10:42,955] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:10:43,001] {logging_mixin.py:115} INFO - [2024-10-22 03:10:43,001] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:10:43,034] {logging_mixin.py:115} INFO - [2024-10-22 03:10:43,034] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:10:10.879477+00:00, run_after=2024-10-22T03:12:10.879477+00:00
+[2024-10-22 03:10:43,051] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.548 seconds
+[2024-10-22 03:11:13,167] {processor.py:153} INFO - Started process (PID=115) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:11:13,168] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:11:13,169] {logging_mixin.py:115} INFO - [2024-10-22 03:11:13,169] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:11:13,695] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:11:13,750] {logging_mixin.py:115} INFO - [2024-10-22 03:11:13,749] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:11:13,781] {logging_mixin.py:115} INFO - [2024-10-22 03:11:13,781] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:10:10.879477+00:00, run_after=2024-10-22T03:12:10.879477+00:00
+[2024-10-22 03:11:13,801] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.640 seconds
+[2024-10-22 03:11:43,959] {processor.py:153} INFO - Started process (PID=144) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:11:43,960] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:11:43,960] {logging_mixin.py:115} INFO - [2024-10-22 03:11:43,960] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:11:44,463] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:11:44,518] {logging_mixin.py:115} INFO - [2024-10-22 03:11:44,517] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:11:44,546] {logging_mixin.py:115} INFO - [2024-10-22 03:11:44,546] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:10:10.879477+00:00, run_after=2024-10-22T03:12:10.879477+00:00
+[2024-10-22 03:11:44,572] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.618 seconds
+[2024-10-22 03:12:14,711] {processor.py:153} INFO - Started process (PID=164) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:12:14,712] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:12:14,713] {logging_mixin.py:115} INFO - [2024-10-22 03:12:14,713] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:12:15,288] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:12:15,348] {logging_mixin.py:115} INFO - [2024-10-22 03:12:15,346] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:12:15,376] {logging_mixin.py:115} INFO - [2024-10-22 03:12:15,375] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:12:10.879477+00:00, run_after=2024-10-22T03:14:10.879477+00:00
+[2024-10-22 03:12:15,394] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.686 seconds
+[2024-10-22 03:12:45,545] {processor.py:153} INFO - Started process (PID=193) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:12:45,546] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:12:45,547] {logging_mixin.py:115} INFO - [2024-10-22 03:12:45,547] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:12:46,142] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:12:46,203] {logging_mixin.py:115} INFO - [2024-10-22 03:12:46,203] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:12:46,234] {logging_mixin.py:115} INFO - [2024-10-22 03:12:46,234] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:12:10.879477+00:00, run_after=2024-10-22T03:14:10.879477+00:00
+[2024-10-22 03:12:46,253] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.713 seconds
+[2024-10-22 03:13:16,400] {processor.py:153} INFO - Started process (PID=213) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:13:16,401] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:13:16,402] {logging_mixin.py:115} INFO - [2024-10-22 03:13:16,402] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:13:16,877] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:13:16,927] {logging_mixin.py:115} INFO - [2024-10-22 03:13:16,927] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:13:16,954] {logging_mixin.py:115} INFO - [2024-10-22 03:13:16,953] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:12:10.879477+00:00, run_after=2024-10-22T03:14:10.879477+00:00
+[2024-10-22 03:13:16,972] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.576 seconds
+[2024-10-22 03:13:47,052] {processor.py:153} INFO - Started process (PID=242) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:13:47,053] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:13:47,056] {logging_mixin.py:115} INFO - [2024-10-22 03:13:47,056] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:13:47,484] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:13:47,525] {logging_mixin.py:115} INFO - [2024-10-22 03:13:47,524] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:13:47,546] {logging_mixin.py:115} INFO - [2024-10-22 03:13:47,546] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:12:10.879477+00:00, run_after=2024-10-22T03:14:10.879477+00:00
+[2024-10-22 03:13:47,561] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.512 seconds
+[2024-10-22 03:14:17,700] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:14:17,702] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:14:17,704] {logging_mixin.py:115} INFO - [2024-10-22 03:14:17,704] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:14:18,404] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:14:18,461] {logging_mixin.py:115} INFO - [2024-10-22 03:14:18,461] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:14:18,495] {logging_mixin.py:115} INFO - [2024-10-22 03:14:18,495] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:14:10.879477+00:00, run_after=2024-10-22T03:16:10.879477+00:00
+[2024-10-22 03:14:18,514] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.820 seconds
+[2024-10-22 03:14:48,669] {processor.py:153} INFO - Started process (PID=291) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:14:48,671] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:14:48,672] {logging_mixin.py:115} INFO - [2024-10-22 03:14:48,672] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:14:49,184] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:14:49,243] {logging_mixin.py:115} INFO - [2024-10-22 03:14:49,243] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:14:49,276] {logging_mixin.py:115} INFO - [2024-10-22 03:14:49,276] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:14:10.879477+00:00, run_after=2024-10-22T03:16:10.879477+00:00
+[2024-10-22 03:14:49,294] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.629 seconds
+[2024-10-22 03:15:19,532] {processor.py:153} INFO - Started process (PID=311) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:15:19,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:15:19,535] {logging_mixin.py:115} INFO - [2024-10-22 03:15:19,535] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:15:20,242] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:15:20,292] {logging_mixin.py:115} INFO - [2024-10-22 03:15:20,292] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:15:20,324] {logging_mixin.py:115} INFO - [2024-10-22 03:15:20,324] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:14:10.879477+00:00, run_after=2024-10-22T03:16:10.879477+00:00
+[2024-10-22 03:15:20,353] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.827 seconds
+[2024-10-22 03:15:50,529] {processor.py:153} INFO - Started process (PID=340) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:15:50,531] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:15:50,532] {logging_mixin.py:115} INFO - [2024-10-22 03:15:50,532] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:15:51,026] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:15:51,078] {logging_mixin.py:115} INFO - [2024-10-22 03:15:51,077] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:15:51,107] {logging_mixin.py:115} INFO - [2024-10-22 03:15:51,107] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:14:10.879477+00:00, run_after=2024-10-22T03:16:10.879477+00:00
+[2024-10-22 03:15:51,126] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.600 seconds
+[2024-10-22 03:16:21,296] {processor.py:153} INFO - Started process (PID=369) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:16:21,297] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:16:21,298] {logging_mixin.py:115} INFO - [2024-10-22 03:16:21,298] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:16:21,826] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:16:21,879] {logging_mixin.py:115} INFO - [2024-10-22 03:16:21,878] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:16:21,908] {logging_mixin.py:115} INFO - [2024-10-22 03:16:21,908] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:16:10.879477+00:00, run_after=2024-10-22T03:18:10.879477+00:00
+[2024-10-22 03:16:21,933] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.642 seconds
+[2024-10-22 03:16:52,080] {processor.py:153} INFO - Started process (PID=389) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:16:52,081] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:16:52,082] {logging_mixin.py:115} INFO - [2024-10-22 03:16:52,082] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:16:52,591] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:16:52,642] {logging_mixin.py:115} INFO - [2024-10-22 03:16:52,642] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:16:52,671] {logging_mixin.py:115} INFO - [2024-10-22 03:16:52,671] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:16:10.879477+00:00, run_after=2024-10-22T03:18:10.879477+00:00
+[2024-10-22 03:16:52,700] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.624 seconds
+[2024-10-22 03:17:22,858] {processor.py:153} INFO - Started process (PID=418) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:17:22,859] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:17:22,860] {logging_mixin.py:115} INFO - [2024-10-22 03:17:22,859] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:17:23,370] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:17:23,422] {logging_mixin.py:115} INFO - [2024-10-22 03:17:23,421] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:17:23,452] {logging_mixin.py:115} INFO - [2024-10-22 03:17:23,452] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:16:10.879477+00:00, run_after=2024-10-22T03:18:10.879477+00:00
+[2024-10-22 03:17:23,479] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.625 seconds
+[2024-10-22 03:17:53,636] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:17:53,637] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:17:53,638] {logging_mixin.py:115} INFO - [2024-10-22 03:17:53,638] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:17:54,239] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:17:54,290] {logging_mixin.py:115} INFO - [2024-10-22 03:17:54,289] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:17:54,323] {logging_mixin.py:115} INFO - [2024-10-22 03:17:54,323] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:16:10.879477+00:00, run_after=2024-10-22T03:18:10.879477+00:00
+[2024-10-22 03:17:54,351] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.719 seconds
+[2024-10-22 03:18:24,467] {processor.py:153} INFO - Started process (PID=466) to work on /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:18:24,468] {processor.py:641} INFO - Processing file /opt/airflow/dags/parking_dag.py for tasks to queue
+[2024-10-22 03:18:24,469] {logging_mixin.py:115} INFO - [2024-10-22 03:18:24,469] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:18:24,952] {processor.py:651} INFO - DAG(s) dict_keys(['parking_pipeline']) retrieved from /opt/airflow/dags/parking_dag.py
+[2024-10-22 03:18:25,004] {logging_mixin.py:115} INFO - [2024-10-22 03:18:25,004] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-10-22 03:18:25,033] {logging_mixin.py:115} INFO - [2024-10-22 03:18:25,033] {dag.py:2919} INFO - Setting next_dagrun for parking_pipeline to 2024-10-22T03:18:10.879477+00:00, run_after=2024-10-22T03:20:10.879477+00:00
+[2024-10-22 03:18:25,064] {processor.py:161} INFO - Processing /opt/airflow/dags/parking_dag.py took 0.600 seconds

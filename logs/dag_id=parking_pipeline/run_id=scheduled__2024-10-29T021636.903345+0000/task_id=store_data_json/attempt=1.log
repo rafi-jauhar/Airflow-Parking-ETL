@@ -1,0 +1,34 @@
+[2024-10-29 02:29:22,877] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parking_pipeline.store_data_json scheduled__2024-10-29T02:16:36.903345+00:00 [queued]>
+[2024-10-29 02:29:22,891] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: parking_pipeline.store_data_json scheduled__2024-10-29T02:16:36.903345+00:00 [queued]>
+[2024-10-29 02:29:22,892] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-29 02:29:22,892] {taskinstance.py:1357} INFO - Starting attempt 1 of 2
+[2024-10-29 02:29:22,893] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2024-10-29 02:29:22,919] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): store_data_json> on 2024-10-29 02:16:36.903345+00:00
+[2024-10-29 02:29:22,929] {standard_task_runner.py:52} INFO - Started process 82 to run task
+[2024-10-29 02:29:22,933] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'parking_pipeline', 'store_data_json', 'scheduled__2024-10-29T02:16:36.903345+00:00', '--job-id', '482', '--raw', '--subdir', 'DAGS_FOLDER/parking_dag.py', '--cfg-path', '/tmp/tmp6r5iitr9', '--error-file', '/tmp/tmpe25gsvo7']
+[2024-10-29 02:29:22,935] {standard_task_runner.py:80} INFO - Job 482: Subtask store_data_json
+[2024-10-29 02:29:23,014] {task_command.py:369} INFO - Running <TaskInstance: parking_pipeline.store_data_json scheduled__2024-10-29T02:16:36.903345+00:00 [running]> on host ed5aeed06bd4
+[2024-10-29 02:29:23,122] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Airflow
+AIRFLOW_CTX_DAG_ID=parking_pipeline
+AIRFLOW_CTX_TASK_ID=store_data_json
+AIRFLOW_CTX_EXECUTION_DATE=2024-10-29T02:16:36.903345+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-10-29T02:16:36.903345+00:00
+[2024-10-29 02:29:23,149] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/parking_dag.py", line 78, in _store_data_json
+    json_path = Variable.get('parking_data_json_path')
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/variable.py", line 138, in get
+    raise KeyError(f'Variable {key} does not exist')
+KeyError: 'Variable parking_data_json_path does not exist'
+[2024-10-29 02:29:23,165] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=parking_pipeline, task_id=store_data_json, execution_date=20241029T021636, start_date=20241029T022922, end_date=20241029T022923
+[2024-10-29 02:29:23,192] {standard_task_runner.py:97} ERROR - Failed to execute job 482 for task store_data_json ('Variable parking_data_json_path does not exist'; 82)
+[2024-10-29 02:29:23,227] {local_task_job.py:156} INFO - Task exited with return code 1
+[2024-10-29 02:29:23,277] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
